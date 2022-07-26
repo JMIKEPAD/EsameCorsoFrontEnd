@@ -1,0 +1,33 @@
+.container{
+  display: flex;
+  width: 100%;
+}
+
+.tagline{
+  display: inline-block;
+  width: 70%;
+  margin-left: 50px;
+  text-align: center;
+  color: white;
+}
+
+.img-beer{
+  width: 80px;
+  height: fit-content;
+}
+
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 320px;
+  margin: 5px auto 0px auto;
+  background-color: #6fd08cce;
+  border-radius: 50px;
+  border: 3px solid #B6DCFE;
+}
+.details:hover{
+  background-color: #6fd08c;
+}
+

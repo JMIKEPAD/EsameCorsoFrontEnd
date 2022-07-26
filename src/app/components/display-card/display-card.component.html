@@ -1,0 +1,12 @@
+<div *ngFor="let beer of beers">
+  <div class="container">
+    <div class="details">
+      <img class="img-beer" src="{{beer.image_url}}" alt="">
+      <div class="tagline">
+        <h1>{{beer.tagline}}</h1>
+        <h3>{{beer.description}}</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
